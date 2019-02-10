@@ -91,7 +91,6 @@ def all_supplies_in_holidays(holiday_hash)
           end
         end
         puts str3
-        end
         else
               puts "#{str2}: #{v2}"
         end
