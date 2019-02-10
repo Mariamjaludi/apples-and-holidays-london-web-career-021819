@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     val.each do |k2, v2|
       str2 = k2.to_s
       #str2 = str2.capitalize
-      binding.pry
+      #binding.pry
 
         str2 = str2.split('_')
         i = 0
