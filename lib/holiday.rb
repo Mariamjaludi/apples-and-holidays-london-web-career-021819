@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       str2 = k2.to_s
       str2 = k2.capitalize
       
-      if str2.include?('_')
+      
         str2 = str2.split('_')
         i = 0
         while i<str2.length
@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
           i += 1
         end
         str2 = str2.join(' ')
-      end
+      
       puts "#{str2}:"
 
       if v2.length == 2
