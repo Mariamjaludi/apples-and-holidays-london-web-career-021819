@@ -81,13 +81,11 @@ def all_supplies_in_holidays(holiday_hash)
         end
         str2 = str2.join(' ')
 
-      puts "#{str2}:"
-
       if v2.length == 2
-        puts "#{v2[0]}, #{v2[1]}"
-      else
-        puts v2
-      end
+          puts "#{str2}: #{v[0]}, #{v[1]}"
+        else
+              puts "#{str2}: #{v2}"
+            end
     end
   end
 end
