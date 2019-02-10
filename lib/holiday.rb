@@ -81,22 +81,9 @@ def all_supplies_in_holidays(holiday_hash)
         end
         str2 = str2.join(' ')
         j = 0
-        str3 = "  #{str2}: " + v2.join(', ')
-        puts str3
-=begin
-      if v2.length > 1
-        while j < v2.length
-          str3 = str3 + " #{v2[j]}, "
-          j += 1
-          if j == v2.length - 1
-            str3 = str3 + "#{v2[j]}"
-          end
-        end
-        puts str3
-        else
-              puts "#{str2}: #{v2}"
-        end
-=end
+        puts "  #{str2}: #{v2.join(', ')}"
+
+
     end
   end
 end
