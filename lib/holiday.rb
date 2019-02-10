@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     val.each do |k2, v2|
       str2 = k2.to_s
       str2 = k2.capitalize
-
+      binding.pry
 
         str2 = str2.split('_')
         i = 0
@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
           i += 1
         end
         str2 = str2.join(' ')
-      
+
       puts "#{str2}:"
 
       if v2.length == 2
