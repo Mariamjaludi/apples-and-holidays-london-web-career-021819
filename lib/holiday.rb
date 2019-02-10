@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{str}:"
     val.each do |k2, v2|
       str2 = k2.to_s
-      str2 = k2.capitalize
+      str2 = str2.capitalize
       binding.pry
 
         str2 = str2.split('_')
